@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f057bdd-f963-4337-a4be-3a8b79694f12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/farmacia.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Produto.java" afterDir="false" />
-    </list>
+    <list default="true" id="9f057bdd-f963-4337-a4be-3a8b79694f12" name="Changes" comment="6 - Instalar pacote mysql-connector-java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,9 +43,9 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ariel/Documents/Curso-GTI/Trilha 3/Projeto/farmacia/dependencias/mysql-connector-j-8.3.0.jar",
+    "last_opened_file_path": "C:/Users/ariel/Documents/Curso-GTI/Trilha 3/Projeto/farmacia/dependencias/hikari-cp-3.0.1.jar",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
@@ -73,6 +65,19 @@
       <option name="presentableId" value="Default" />
       <updated>1708696809773</updated>
     </task>
+    <task id="LOCAL-00001" summary="6 - Instalar pacote mysql-connector-java">
+      <option name="closed" value="true" />
+      <created>1708698339384</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708698339384</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="6 - Instalar pacote mysql-connector-java" />
+    <option name="LAST_COMMIT_MESSAGE" value="6 - Instalar pacote mysql-connector-java" />
   </component>
 </project>
