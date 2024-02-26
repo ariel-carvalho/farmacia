@@ -9,6 +9,7 @@ public class Produto
 
     public Produto(float preco, String nome, String fabricante)
     {
+
         this.preco = preco;
         this.nome = nome;
         this.fabricante = fabricante;
