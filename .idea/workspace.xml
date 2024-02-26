@@ -4,7 +4,205 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f057bdd-f963-4337-a4be-3a8b79694f12" name="Changes" comment="6 - Instalar pacote mysql-connector-java" />
+    <list default="true" id="9f057bdd-f963-4337-a4be-3a8b79694f12" name="Changes" comment="7 - instalar pacote HikariCP">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cn_tiennet_dolphin_dolphincore.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hikari_cp_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/yotpo_metorikku_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/HikariCP-3.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/accessors-smart-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/animal-sniffer-annotations-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ant-1.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ant-launcher-1.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/asm-4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/aspectjweaver-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/aws-java-sdk-1.7.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/batik-anim-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/batik-awt-util-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/batik-bridge-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/batik-constants-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/batik-css-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/batik-dom-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/batik-ext-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/batik-gvt-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/batik-i18n-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/batik-parser-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/batik-script-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/batik-svg-dom-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/batik-svggen-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/batik-transcoder-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/batik-util-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/batik-xml-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cglib-3.2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/common-image-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/common-io-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/common-lang-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-codec-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-collections-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-collections4-4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-compiler-3.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-configuration-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-configuration2-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-io-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-jexl-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-lang3-3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-lang3-3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-pool2-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-text-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-text-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/converter-moshi-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curator-client-4.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curator-framework-4.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curator-recipes-2.12.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/deequ-1.1.0_spark-2.4-scala-2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dolphincore-1.4.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/druid-1.1.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ehcache-2.10.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ehcache-core-2.10.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/error_prone_annotations-2.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ezmorph-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/fastjson-1.2.54.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/fluent-hc-4.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/freemarker-2.3.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gson-2.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/guava-23.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hadoop-aws-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hasher_2.11-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hazelcast-3.12.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hazelcast-client-3.12.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hessian-4.0.51.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/httpclient-4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/httpclient-4.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/httpclient-cache-4.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/httpcore-4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/httpcore-4.4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/httpmime-4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/imageio-batik-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/imageio-bmp-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/imageio-core-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/imageio-hdr-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/imageio-jpeg-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/imageio-metadata-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/imageio-pnm-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/imageio-tiff-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/influxdb-java-2.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/j2objc-annotations-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-annotations-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-annotations-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-core-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-core-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-databind-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-databind-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-dataformat-cbor-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-dataformat-yaml-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-datatype-jdk8-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-datatype-jsr310-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-module-paranamer-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-module-scala_2.11-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/janino-3.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/java-sizeof-0.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/java-uuid-generator-3.1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.inject-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jdom-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jjwt-0.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/joda-time-2.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/json-20180813.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/json-lib-2.3-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/json-path-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/json-smart-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsoup-1.11.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsr305-1.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/log4j-api-2.17.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/log4j-core-2.17.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/log4j-over-slf4j-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/log4j-slf4j-impl-2.17.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/logback-access-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/logging-interceptor-3.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mail-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/metorikku_2.11-0.0.156.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/metrics-core-4.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/minimal-json-0.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/moshi-1.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/msgpack-core-0.8.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/netty-3.2.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/netty-all-4.1.25.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/objenesis-2.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/okhttp-3.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/okio-1.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/orika-core-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/paranamer-2.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/play-functional_2.11-2.7.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/play-json_2.11-2.7.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/protobuf-java-util-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/protostuff-api-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/protostuff-collectionschema-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/protostuff-core-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/protostuff-runtime-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/reflectasm-1.05.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/retrofit-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/scala-library-2.11.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/scala-reflect-2.11.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/scopt_2.11-3.7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/serializer-2.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/servlet-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-api-1.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/snakeyaml-1.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/snakeyaml-1.24.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spark-redshift_2.11-4.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spark-xml_2.11-0.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aop-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-beans-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-core-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-data-commons-2.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-data-keyvalue-2.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-data-redis-2.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-expression-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jcl-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-orm-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-5.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-test-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-tx-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-web-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-webmvc-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spymemcached-2.12.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/statistics-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/thumbnailator-0.4.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/txw2-2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xalan-2.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xml-apis-1.0.b2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xml-apis-ext-1.3.04.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xmlgraphics-commons-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xmlpull-1.1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xmlschema-core-2.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xpp3_min-1.1.4c.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xstream-1.4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/zookeeper-3.4.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencias/hikari-cp-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencias/mysql-connector-j-8.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/farmacia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/farmacia.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,21 +232,38 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConectionFactory.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ariel/Documents/Curso-GTI/Trilha 3/Projeto/farmacia/dependencias/hikari-cp-3.0.1.jar",
+    "last_opened_file_path": "C:/Users/ariel/Documents/Curso-GTI/Trilha 3/Projeto/dependencias/hikari-cp-3.0.1.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="ConectionFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConectionFactory" />
+      <module name="farmacia" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConectionFactory" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,11 +288,20 @@
       <option name="project" value="LOCAL" />
       <updated>1708698339384</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="7 - instalar pacote HikariCP">
+      <option name="closed" value="true" />
+      <created>1708698481174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708698481174</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="6 - Instalar pacote mysql-connector-java" />
-    <option name="LAST_COMMIT_MESSAGE" value="6 - Instalar pacote mysql-connector-java" />
+    <MESSAGE value="7 - instalar pacote HikariCP" />
+    <option name="LAST_COMMIT_MESSAGE" value="7 - instalar pacote HikariCP" />
   </component>
 </project>
