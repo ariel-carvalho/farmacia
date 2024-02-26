@@ -34,4 +34,11 @@ public class Produto
     {
         return fabricante;
     }
+
+    @Override
+    public String toString()
+    {
+        return "Preço: " + this.getPreco() + " Nome: " + this.nome + " Fabricante: " + this.getFabricante();
+    }
 }
+

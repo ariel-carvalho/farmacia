@@ -4,12 +4,15 @@ import br.com.alura_senac.farmacia.modelo.Produto;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.HashSet;
+import java.util.Set;
 
-public class ProdutoDao
+public class ProdutoDAO
 {
     private Connection conn;
-    public ProdutoDao(Connection connection)
+    public ProdutoDAO(Connection connection)
     {
         this.conn = connection;
     }
@@ -34,5 +37,33 @@ public class ProdutoDao
         {
             throw new RuntimeException(e);
         }
+    }
+
+    public Set<Produto> listar()
+    {
+        Set<Produto> produtos = new HashSet<>();
+
+        String sql = "SELECT * FROM produto";
+
+        try
+        {
+            PreparedStatement ps = conn.prepareStatement(sql);
+            ResultSet resultSet = ps.executeQuery();
+
+            while (resultSet.next())
+            {
+                Float preco = resultSet.getFloat(2);
+                String nome = resultSet.getString(3);
+                String fabricante = resultSet.getString(4);
+
+                produtos.add(new Produto(preco, nome, fabricante));
+            }
+        }
+        catch (SQLException e)
+        {
+            throw new RuntimeException(e);
+        }
+
+        return produtos;
     }
 }
