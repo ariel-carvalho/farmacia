@@ -1,3 +1,5 @@
+package br.com.alura_senac.farmacia.modelo;
+
 public class Produto
 {
     private int id;
