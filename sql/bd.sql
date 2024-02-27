@@ -11,3 +11,8 @@ CREATE TABLE `produto`
 );
 
 select * from produto;
+
+SELECT * FROM produto WHERE id = 1;
+update produto set preco = 2 where id = 2; 
+
+UPDATE produto SET preco = 2 WHERE id = 2;

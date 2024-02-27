@@ -26,4 +26,16 @@ public class ProdutoService
         Connection conn = connection.recuperarConexao();
         return new ProdutoDAO(conn).listar();
     }
+
+    public void alterarPreco(Produto produto, double novoPreco)
+    {
+        Connection conn = connection.recuperarConexao();
+        new ProdutoDAO(conn).alterarPreco(produto.getId(), novoPreco);
+    }
+
+    public Produto buscarPorId(Integer id)
+    {
+        Connection conn = connection.recuperarConexao();
+        return new ProdutoDAO(conn).buscarPorId(id);
+    }
 }

@@ -12,7 +12,7 @@ public class CriarProduto
     public void criarProduto()
     {
         System.out.println("Digite o preço do produto");
-        float preco = leitura.nextFloat();
+        double preco = leitura.nextDouble();
 
         System.out.println("Digite o nome do produto:");
         String nome = leitura.next();

@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f057bdd-f963-4337-a4be-3a8b79694f12" name="Changes" comment="9 - Cadastrar novo produto">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/ListarProdutos.java" afterDir="false" />
+    <list default="true" id="9f057bdd-f963-4337-a4be-3a8b79694f12" name="Changes" comment="10 - Listar produtos">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/EditarDados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/farmacia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/farmacia.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/bd.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/bd.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/CriarProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/CriarProduto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/FarmaciaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/FarmaciaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/dao/ProdutoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/dao/ProdutoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/ListarProdutos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/ListarProdutos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/dao/ConectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/dao/ConectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/dao/ProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/dao/ProdutoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/modelo/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/modelo/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/service/ProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/service/ProdutoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,27 +45,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ConectionFactory.executor": "Run",
-    "Application.FarmaciaApplication.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ariel/Documents/Curso-GTI/Trilha 3/Semana 4/Curso 1/screematch",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ConectionFactory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FarmaciaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FarmaciaApplicationn.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ariel/Documents/Curso-GTI/Trilha 3/Projeto/farmacia&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.FarmaciaApplication">
     <configuration name="ConectionFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConectionFactory" />
@@ -151,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708954046449</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="10 - Listar produtos">
+      <option name="closed" value="true" />
+      <created>1708956348097</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708956348097</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -159,6 +175,17 @@
     <MESSAGE value="7 - instalar pacote HikariCP" />
     <MESSAGE value="8 - Criar ConnectionFactory" />
     <MESSAGE value="9 - Cadastrar novo produto" />
-    <option name="LAST_COMMIT_MESSAGE" value="9 - Cadastrar novo produto" />
+    <MESSAGE value="10 - Listar produtos" />
+    <option name="LAST_COMMIT_MESSAGE" value="10 - Listar produtos" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -26,13 +26,14 @@ public class ProdutoDAO
             PreparedStatement preparedStatement = conn.prepareStatement(sql);
 
             preparedStatement.setInt(1, produto.getId());
-            preparedStatement.setFloat(2, produto.getPreco());
+            preparedStatement.setDouble(2, produto.getPreco());
             preparedStatement.setString(3, produto.getNome());
             preparedStatement.setString(4, produto.getFabricante());
 
             preparedStatement.execute();
+            preparedStatement.close();
+            conn.close();
         }
-
         catch (SQLException e)
         {
             throw new RuntimeException(e);
@@ -41,23 +42,30 @@ public class ProdutoDAO
 
     public Set<Produto> listar()
     {
+        PreparedStatement preparedStatement;
+        ResultSet resultSet;
+
         Set<Produto> produtos = new HashSet<>();
 
         String sql = "SELECT * FROM produto";
 
         try
         {
-            PreparedStatement ps = conn.prepareStatement(sql);
-            ResultSet resultSet = ps.executeQuery();
+            preparedStatement = conn.prepareStatement(sql);
+            resultSet = preparedStatement.executeQuery();
 
             while (resultSet.next())
             {
-                Float preco = resultSet.getFloat(2);
+                double preco = resultSet.getDouble(2);
                 String nome = resultSet.getString(3);
                 String fabricante = resultSet.getString(4);
 
                 produtos.add(new Produto(preco, nome, fabricante));
             }
+
+            preparedStatement.close();
+            resultSet.close();
+            conn.close();
         }
         catch (SQLException e)
         {
@@ -65,5 +73,62 @@ public class ProdutoDAO
         }
 
         return produtos;
+    }
+
+    public void alterarPreco(int id, double preco)
+    {
+        PreparedStatement preparedStatement;
+        String sql = "UPDATE produto SET preco = ? WHERE id = ?";
+
+        try
+        {
+           preparedStatement = conn.prepareStatement(sql);
+           preparedStatement.setDouble(1, preco);
+           preparedStatement.setInt(2,id);
+
+           preparedStatement.execute();
+           preparedStatement.close();
+           conn.close();
+        }
+        catch (SQLException e)
+        {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public Produto buscarPorId(int id)
+    {
+
+        PreparedStatement preparedStatement;
+        ResultSet resultSet;
+        Produto produto = null;
+
+        String sql = "SELECT * FROM produto WHERE id = ?";
+
+        try
+        {
+            preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.setInt(1, id);
+            resultSet = preparedStatement.executeQuery();
+
+            while (resultSet.next())
+            {
+               double preco = resultSet.getDouble(2);
+                String nome = resultSet.getString(3);
+                String fabricante = resultSet.getString(4);
+
+                produto = new Produto(preco, nome, fabricante);
+            }
+
+            preparedStatement.close();
+            resultSet.close();
+            conn.close();
+        }
+        catch (SQLException e)
+        {
+            throw new RuntimeException(e);
+        }
+
+        return produto;
     }
 }

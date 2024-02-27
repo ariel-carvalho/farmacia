@@ -3,11 +3,11 @@ package br.com.alura_senac.farmacia.modelo;
 public class Produto
 {
     private int id;
-    private float preco;
+    private double preco;
     private String nome;
     private String fabricante;
 
-    public Produto(float preco, String nome, String fabricante)
+    public Produto(double preco, String nome, String fabricante)
     {
 
         this.preco = preco;
@@ -20,7 +20,7 @@ public class Produto
         return id;
     }
 
-    public float getPreco()
+    public double getPreco()
     {
         return preco;
     }
@@ -41,4 +41,3 @@ public class Produto
         return "Preço: " + this.getPreco() + " Nome: " + this.nome + " Fabricante: " + this.getFabricante();
     }
 }
-

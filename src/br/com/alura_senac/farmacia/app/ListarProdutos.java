@@ -13,6 +13,14 @@ public class ListarProdutos
     {
         System.out.println("Produtos cadastrados:");
         var produtos = service.listarProdutos();
-        produtos.stream().forEach(System.out::println);
+        produtos.forEach(System.out::println);
+    }
+
+    public void buscarPorId()
+    {
+        System.out.println("Digite o ID do produto");
+        int id = leitura.nextInt();
+        var produto = service.buscarPorId(id);
+        System.out.println(produto);
     }
 }
