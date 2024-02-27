@@ -18,5 +18,8 @@ public class DeletarProduto
 
         System.out.println("Produt deletado com sucesso!");
 
+        System.out.println("Pressione ENTER para sair");
+        leitura.next();
+
     }
 }

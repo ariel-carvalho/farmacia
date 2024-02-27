@@ -14,6 +14,9 @@ public class ListarProdutos
         System.out.println("Produtos cadastrados:");
         var produtos = service.listarProdutos();
         produtos.forEach(System.out::println);
+
+        System.out.println("Pressione ENTER para voltar ao menu");
+        leitura.next();
     }
 
     public void buscarPorId()
@@ -22,5 +25,8 @@ public class ListarProdutos
         int id = leitura.nextInt();
         var produto = service.buscarPorId(id);
         System.out.println(produto);
+
+        System.out.println("Pressione ENTER para voltar ao menu");
+        leitura.next();
     }
 }

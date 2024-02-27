@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f057bdd-f963-4337-a4be-3a8b79694f12" name="Changes" comment="11 - Editar preço do produto">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/DeletarProduto.java" afterDir="false" />
+    <list default="true" id="9f057bdd-f963-4337-a4be-3a8b79694f12" name="Changes" comment="12 - Deletar produto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/CriarProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/CriarProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/DeletarProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/DeletarProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/EditarDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/EditarDados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/FarmaciaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/FarmaciaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/dao/ProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/dao/ProdutoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/service/ProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/service/ProdutoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/ListarProdutos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura_senac/farmacia/app/ListarProdutos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709036963796</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="12 - Deletar produto">
+      <option name="closed" value="true" />
+      <created>1709038339835</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709038339835</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,7 +187,8 @@
     <MESSAGE value="9 - Cadastrar novo produto" />
     <MESSAGE value="10 - Listar produtos" />
     <MESSAGE value="11 - Editar preço do produto" />
-    <option name="LAST_COMMIT_MESSAGE" value="11 - Editar preço do produto" />
+    <MESSAGE value="12 - Deletar produto" />
+    <option name="LAST_COMMIT_MESSAGE" value="12 - Deletar produto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

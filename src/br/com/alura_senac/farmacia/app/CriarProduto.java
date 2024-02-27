@@ -23,5 +23,8 @@ public class CriarProduto
         service.criarProduto(new Produto(preco, nome, fabricante));
 
         System.out.println("Produto cadastrado com sucesso!");
+
+        System.out.println("Pressione ENTER para voltar ao menu");
+        leitura.next();
     }
 }
