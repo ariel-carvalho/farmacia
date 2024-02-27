@@ -12,8 +12,13 @@ public class FarmaciaApplication
 //
 //        ListarProdutos listarProdutos = new ListarProdutos();
 //        listarProdutos.buscarPorId();
+//
+//        EditarDados editarDados = new EditarDados();
+//        editarDados.EditarPreco();
+//
+//        DeletarProduto deletarProduto = new DeletarProduto();
+//        deletarProduto.DeletarProduto();
 
-        EditarDados editarDados = new EditarDados();
-        editarDados.EditarPreco();
+
     }
 }

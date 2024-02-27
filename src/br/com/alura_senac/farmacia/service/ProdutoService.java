@@ -38,4 +38,10 @@ public class ProdutoService
         Connection conn = connection.recuperarConexao();
         return new ProdutoDAO(conn).buscarPorId(id);
     }
+
+    public Produto deletarProduto(Integer id)
+    {
+        Connection conn = connection.recuperarConexao();
+        return new ProdutoDAO(conn).deletarProduto(id);
+    }
 }

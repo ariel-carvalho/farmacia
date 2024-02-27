@@ -131,4 +131,29 @@ public class ProdutoDAO
 
         return produto;
     }
+
+    public Produto deletarProduto(int id)
+    {
+        PreparedStatement preparedStatement;
+        Produto produto = null;
+
+        String sql = "DELETE FROM produto WHERE id = ?";
+
+        try
+        {
+            preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.setInt(1, id);
+
+            preparedStatement.execute();
+            preparedStatement.close();
+            conn.close();
+        }
+        catch (SQLException e)
+        {
+            throw new RuntimeException(e);
+        }
+
+        return produto;
+    }
+
 }
